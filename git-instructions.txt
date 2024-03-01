@@ -37,3 +37,11 @@ WHEN WE RUN COMMAND GIT LOG WE SEE:
 
  git commit --amend         - command to change the message of the commit
  git reset ID_OF_THE_COMMIT         - command to delete commit. 
+git rebase       - rebase to rewrite the history of the commits. 
+    git rebase -i --root 
+git branch -a           - command to show all existing branches
+git checkout -b "branchname"            - to create a branch 
+git checkout "desired_branch"  - command to switch between branches    
+
+
+
