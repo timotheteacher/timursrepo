@@ -13,3 +13,27 @@ git commit -m "message"         - commits the files to the local repository
 
 
 git push - pushes the files to the remote repository        
+
+in the file itself after you done changes run "command + S" - to save file 
+        for WINDOWS USERS "CONTROL + S" to save 
+
+IN GIT WE HAVE 3 STAGES: 
+    1. WORKING STAGE - FILES THAT ARE NOT ADDED
+    2. STAGING -   AFTER WHEN WE RUN COMMAND "GIT ADD ."  - NOW FILES ARE STAGED 
+    3 COMMIT - COMMITED (SAVED FILES)
+
+
+FILES ALSO CAN 3 STATES:  (3 SOSTOYANIYA)
+    1. UNMODIFIED 
+    2. MODIFIED 
+    3. STAGED 
+
+WHEN WE RUN COMMAND GIT LOG WE SEE: 
+1. COMMIT ID  (COMMIT SHA/HASH)2
+2. (HEAD -> master or main) -  it means your branch taht you work on, and last commit. 
+3. author - who made the commit
+4. date - when the commit was made
+5. commit message - what the commit is about
+
+ git commit --amend         - command to change the message of the commit
+ git reset ID_OF_THE_COMMIT         - command to delete commit. 
