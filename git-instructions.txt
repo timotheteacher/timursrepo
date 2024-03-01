@@ -1,0 +1,9 @@
+git config --global user.name "timotheteacher"
+git config --global user.email "youremail@gmail.com"
+
+ 
+ 
+git add .                   - adds all files to the staging area
+
+git commit -m "message" - commits the files to the local repository
+git push - pushes the files to the remote repository        
